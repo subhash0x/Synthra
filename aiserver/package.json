@@ -1,0 +1,38 @@
+{
+  "name": "aiserver",
+  "version": "1.0.0",
+  "description": "AI Character Chat Server with Gemini Integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index-mongodb.js",
+    "build": "tsc",
+    "vercel-build": "npm run build",
+    "dev": "tsx index-mongodb.ts",
+    "dev-old": "ts-node --esm index.ts",
+      
+   "migrate": "tsx scripts/migrate-characters.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/mongoose": "^5.11.96",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.18.0",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.20.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
