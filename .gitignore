@@ -94,8 +94,7 @@ mnemonic.txt
 *.pem
 *.key
 
-# Documentation files (as requested)
-*.md
+
 
 # Temporary files
 tmp/
