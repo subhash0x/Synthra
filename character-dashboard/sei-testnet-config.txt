@@ -1,0 +1,14 @@
+# Sei Testnet Configuration for character-dashboard
+# Copy these environment variables to your .env file in the character-dashboard directory
+
+VITE_PTOKEN_ADDRESS=0xb16d4c87e08598ad8af89aeeac2d3734172626da
+VITE_TOKEN_FACTORY_ADDRESS=0x1d333ed8f416692a49f0b2631f0435f67a610b87
+VITE_WALLETCONNECT_PROJECT_ID=0375994bb6bfd058c6b7876ee734e1c5
+VITE_CHAIN_ID=1328
+VITE_RPC_URL=https://evm-rpc-testnet.sei-apis.com
+
+# Network Details
+VITE_NETWORK_NAME=Sei Testnet
+VITE_NATIVE_CURRENCY_NAME=SEI
+VITE_NATIVE_CURRENCY_SYMBOL=SEI
+VITE_BLOCK_EXPLORER_URL=https://seitrace.com
