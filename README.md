@@ -61,9 +61,6 @@ npm run dev
 - **Blockchain**: Solidity, Hardhat, Sei Network
 - **Deployment**: Vercel, Ignition
 
-## Contributing
-
-We welcome contributions! Please feel free to submit pull requests or open issues.
 
 ## License
 
