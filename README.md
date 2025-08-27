@@ -62,11 +62,6 @@ npm run dev
 - **Deployment**: Vercel, Ignition
 
 
-## License
-
-This project is licensed under the MIT License.
-
----
 
 <div align="center">
   <p>Built with ❤️ by the Synthra team</p>
